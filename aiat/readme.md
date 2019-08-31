@@ -1,9 +1,9 @@
 etherpad.net/p/aiat
  
 day1 supervided learning
- 
 https://github.com/ageron/handson-ml
- 
+
+Text book
 https://github.com/yanshengjia/ml-road/blob/master/resources/Hands%20On%20Machine%20Learning%20with%20Scikit%20Learn%20and%20TensorFlow.pdf
  
  
@@ -18,6 +18,18 @@ https://github.com/wasit7/tensorflow_tutorial/blob/master/back_propagation/Backp
  
 Setting up Environment
 https://docs.google.com/presentation/d/1ucxpP0P6um2Dt4dB1d_HSpMVCodKSZcuzwKXPM5VO1U/edit?usp=sharing
+
+conda env list
+conda create -n envname python=3.6
+conda activate envname
+conda install -c conda-forge jupyterlab
+jupyter lab
+
+Titanic Dataset
+https://www.kaggle.com/c/titanic/data
+https://github.com/wasit7/aiat/blob/master/aiat/Titanic%20Demo.ipynb
+conda install matplotlib pandas
+conda install scikit-learn
  
 1.     Supervised Learning Titanic
 1.     pandas read_csv
