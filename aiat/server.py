@@ -11,7 +11,9 @@ async def handle(request):
     for i in range(7):
         x_vector[i]=float(x_list[i])
     y=loaded_model.predict([x_vector])
-    return web.Response(text=str(y))
+    #return web.Response(text=str(y))
+    res={"x":x_list,"y":y[0]}
+    return web.json_response(res)
 
 app = web.Application()
 app.add_routes([web.get('/predict/{x}', handle)])
